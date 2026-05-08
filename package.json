@@ -1,0 +1,38 @@
+{
+  "name": "WI_ContextMenu",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "npx eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.11",
+    "@types/react": "^18.2.51",
+    "@types/react-dom": "^18.2.18",
+    "@types/xlsx": "^0.0.35",
+    "css-loader": "^7.1.2",
+    "esbuild-loader": "4.2.2",
+    "eslint": "^9.14.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.12.0",
+    "style-loader": "^4.0.0",
+    "typescript-eslint": "^8.13.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "im-plugins-core": "http://localhost:8088/sdk/packages/im-plugins-core-1.1.25516.tgz",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "xlsx": "^0.18.5"
+  }
+}
